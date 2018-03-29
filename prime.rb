@@ -2,9 +2,9 @@ def prime?(number)
   x = 2
   while x < number
     if number % x == 0
-      false
+      return false
     else
-      true
+      return true
     end
     x += 1
   end
