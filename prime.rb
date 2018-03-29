@@ -1,8 +1,8 @@
 def prime?(number)
-  loop do
-  if number == (number && 1)
-   true
-  else
-   false
+  while x == 2...number
+    if number % x == 0
+      false
+    else
+      true
   end
 end
